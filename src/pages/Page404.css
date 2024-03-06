@@ -1,0 +1,12 @@
+.Page404 {
+  height: 100vh;
+}
+
+.Page404 .error404 {
+  font-size: 5rem;
+  color: var(--text-dark);
+}
+
+.Page404 .h4 {
+  color: var(--text-dark);
+}

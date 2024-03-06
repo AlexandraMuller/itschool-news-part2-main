@@ -1,0 +1,75 @@
+:root {
+  --text-primary: #445d53;
+  --text-secondary: #5d7314;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+
+  --bg-primary: #e2dbcb;
+  --bg-secondary: #778e6f;
+  --bg-dark: #113e1e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #132a0f;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #2bb686 !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.text-dark {
+  color: #2b2922 !important;
+}
+
+.bg-primary {
+  background-color: #e2dbcb !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #313d1f !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
