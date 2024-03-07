@@ -47,6 +47,7 @@ function NewsDetails() {
                 <p className="mb-0">{formattedDate}</p>
               </div>
               <Button
+                className="fav-button-card"
                 onClick={() => {
                   handleAddToFavorites({
                     id: newsId,
@@ -56,7 +57,7 @@ function NewsDetails() {
                   });
                 }}
               >
-                Adaugă la favorite
+                Add to favorites ❤️
               </Button>
             </div>
             <div dangerouslySetInnerHTML={{ __html: content }}></div>

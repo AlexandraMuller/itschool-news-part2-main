@@ -25,3 +25,11 @@
 .NewsDetails figcaption {
   font-size: 0.875rem;
 }
+
+.NewsDetails .fav-button-card {
+  background-color: var(--bg-dark);
+}
+
+.NewsDetails .fav-button-card:hover {
+  background-color: rgb(52, 106, 52);
+}

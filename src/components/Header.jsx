@@ -26,7 +26,7 @@ function Header() {
           <div className="menu-icon-container">
             <span
               onClick={handleMenuClick}
-              className="material-icons menu-icon text-light"
+              className="material-icons menu-icon "
             >
               {" "}
               menu{" "}

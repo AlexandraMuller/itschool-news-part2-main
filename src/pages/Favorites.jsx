@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import Container from "react-bootstrap/Container";
 import { FavoritesContext } from "../store/favorites/context";
 import NewsCardList from "../components/NewsCardList";
-net;
+
 function Favorites() {
   const { state } = useContext(FavoritesContext);
 
