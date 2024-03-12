@@ -35,11 +35,11 @@ function Home() {
           <h1 className="mb-5 pt-3">Art&Design</h1>
           <NewsCardList newsList={adaptedArtData} />
           <p>
-            See all technology related news in the section{" "}
+            See all technology related news in the{" "}
             <Link to="/category/artanddesign" className="text-secondary">
               Art&Design
-            </Link>
-            .
+            </Link>{" "}
+            section.
           </p>
         </Container>
       </section>
@@ -49,11 +49,11 @@ function Home() {
           <h1 className="mb-5 pt-3">Tech</h1>
           <NewsCardList newsList={adaptedTechnologyData} />
           <p>
-            See all technology related news in the section{" "}
+            See all technology related news in the{" "}
             <Link to="/category/technology" className="text-secondary">
               Tech
-            </Link>
-            .
+            </Link>{" "}
+            section.
           </p>
         </Container>
       </section>
@@ -63,11 +63,11 @@ function Home() {
           <h1 className="mb-5 pt-3">Travel</h1>
           <NewsCardList newsList={adaptedTravelData} />
           <p>
-            See all technology related news in the section{" "}
+            See all technology related news in the{" "}
             <Link to="/category/travel" className="text-secondary">
               Travel
-            </Link>
-            .
+            </Link>{" "}
+            section.
           </p>
         </Container>
       </section>
@@ -77,11 +77,11 @@ function Home() {
           <h1 className="mb-5 pt-3">Lifestyle</h1>
           <NewsCardList newsList={adaptedLifestyleData} />
           <p>
-            See all technology related news in the section{" "}
+            See all technology related news in the{" "}
             <Link to="/category/lifeandstyle" className="text-secondary">
               Lifestyle
-            </Link>
-            .
+            </Link>{" "}
+            section.
           </p>
         </Container>
       </section>
@@ -91,11 +91,11 @@ function Home() {
           <h1 className="mb-5 pt-3">Sport</h1>
           <NewsCardList newsList={adaptedSportData} />
           <p>
-            See all technology related news in the section{" "}
+            See all technology related news in the{" "}
             <Link to="/category/sport" className="text-secondary">
               Sport
-            </Link>
-            .
+            </Link>{" "}
+            section.
           </p>
         </Container>
       </section>
